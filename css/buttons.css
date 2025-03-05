@@ -10,3 +10,12 @@ button {
 button:hover {
     background-color: #0071e2;
 }
+
+button.bookmark {
+    background-color: gray;
+    ;
+}
+
+button.bookmark:focus {
+    background-color: black;
+}

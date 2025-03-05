@@ -3,13 +3,15 @@
 @import "header.css";
 
 h1 {
-    color: rgb(39, 92, 93);
+    color: rgb(217, 252, 253);
     text-align: center;
+    font-family: sans-serif
     
 }
 
 h2 {
-    color: aqua;
+    color: rgb(0, 3, 68);
+    font-family: sans-serif;
 }
 
 header {
@@ -19,12 +21,24 @@ header {
     border-top: 0;
     margin-top: 0;
     padding-top: 0;
-    background-color: aqua;
+    background-color: rgb(0, 7, 58);
     width: 100%;
 }
 
+.question-card {
+    display: flexbox
+}
+
+#box-1 {
+    margin-top: 90px;
+}
+
+#box-3 {
+    margin-bottom: 100px;
+}
+
 body {
-    background-color: azure;
+    background-color:rgb(241, 255, 255);
 }
 
 button {
@@ -37,32 +51,57 @@ button {
 }
 
 .question-card {
-    background-color:cadetblue;
+    background-color:rgb(182, 236, 238);
     padding: 10px;
     margin: 20px;
     height: 200px;
     text-align: center;
-    width:
+    border-radius: 0.9em;
+    width: 90%;
 }
 
 a {
-    color:black;
+    color: rgb(217, 252, 253);
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 ul {
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
 }
 
-li {
-    margin-left: 30%;
+.question-card li {
+    margin-left: 30px;
+    background-color: rgb(200, 199, 199);
+    font-family: sans-serif;
+    padding: 5px;
+    border-radius: 0.9em;
+}
+
+.question-card button {
+    align-items: ;
+}
+
+footer li {
+    margin-left: 30px;
+    text-align: center;
+    padding: 20px 40px;
+    border: 0px;
 }
 
 footer {
-    background-color: aqua;
+    background-color: rgb(0, 7, 58);
     position: fixed;
+    display: flex;
     bottom: 0;
     right: 0;
     width: 100%;
+    color: rgb(217, 252, 253);
+    border: 0px;
+}
+
+#here {
+    background-color: blue;
 }
