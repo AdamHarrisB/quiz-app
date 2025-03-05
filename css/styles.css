@@ -5,11 +5,22 @@
 h1 {
     color: rgb(39, 92, 93);
     text-align: center;
-    background-color: aqua;
+    
 }
 
 h2 {
     color: aqua;
+}
+
+header {
+    position:fixed;
+    top: 0;
+    right: 0;
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: aqua;
+    width: 100%;
 }
 
 body {
@@ -29,13 +40,29 @@ button {
     background-color:cadetblue;
     padding: 10px;
     margin: 20px;
+    height: 200px;
+    text-align: center;
+    width:
 }
 
 a {
-    
+    color:black;
+    text-decoration: none;
+}
+
+ul {
+    display: inline-flex;
+    justify-content: space-between;
 }
 
 li {
-
+    margin-left: 30%;
 }
 
+footer {
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
