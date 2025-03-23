@@ -12,22 +12,23 @@
         </header>
         <main>
             <div class="question-card" id="box-1">
-                <label class="bookmark">
-                    <input type="checkbox" checked="checked"></label>
-                <h2 class="question">What property flips the axes in flexbox?</h2>
-                <button class="answer">Show Answer</button>
-                <ul class="tags">
-                    <li>#CSS</li>
-                    <li>#Flexbox</li>
-                    <li>#Anchor</li>
-                </ul>
+                <form data-js="form">
+                    <h2 class="question">Add a Question</h2>
+                    <label for="Question">Question</label>
+                    <textarea id="personal-message" minlength="5" maxlength="50" required></textarea>
+                    <label for="Answer">Answer</label>
+                    <textarea id="answer-text" minlength="5"  maxlength="50" required></textarea>
+                    <label for="tag">Tags</label> <input type="text" id="tags"/>
+                    <button class="button button--add" data-js="add-button">Add Question</button>
+                </form>
             </div>   
         </main>
         <footer>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li id="here"><a href="bookmarks.html">Bookmarks</a></li>
+                <li><a href="bookmarks.html">Bookmarks</a></li>
                 <li><a href="profile.html">Profile</a></li>
+                <li id="here"><a href="add.html">Add</a></li>
             </ul>
         </footer>
     </body>
